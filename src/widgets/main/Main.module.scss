@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Nexa Rust Slab';
+  src: url('../../../public/fonts/nexa-rust.slab-black-shadow-01.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zing Rust Shadow";
+  src: url('../../../public/fonts/zing.rust-demo-shadow1.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zing Rust Base";
+  src: url('../../../public/fonts/zing.rust-demo-base.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.container{
+  @apply flex flex-col justify-center min-w-full min-h-[580px] lg:min-h-[947px] px-5 lg:px-32;
+}
+
+.block{
+ @apply relative overflow-hidden min-w-full max-h-[947] flex justify-center items-center
+}
+
+.overlay {
+  @apply flex flex-col items-center text-white mt-16 lg:mt-24;
+}
+
+.videoBackground {
+  @apply absolute top-0 left-0 w-full min-h-[947] object-cover -z-10;
+}
+
+.brandName{
+  font-family: 'Nexa Rust Slab';
+  @apply text-4xl self-center md:text-center lg:text-8xl lg:self-start lg:text-left
+
+}
+
+.banner{
+  font-family: "Zing Rust Shadow";
+  @apply  text-8xl text-center mt-[80px] lg:mt-[166px]
+}
+
+.button{
+  font-family: "Zing Rust Base";
+  @apply  transition duration-500 transform bg-green-600 py-5 px-10 self-start text-3xl mt-[80px] md:self-center md:mt-[40px] lg:self-start lg:mt-[80px]
+}
+
+.button:hover{
+  @apply scale-110 bg-green-700 transition duration-500 transform
+}

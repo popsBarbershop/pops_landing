@@ -1,0 +1,58 @@
+{
+  "languages": {
+    "label": "Language",
+    "en": "English",
+    "pl": "Polish"
+  },
+  "header": {
+    "street": "aleja Jana Pawla II, 45A",
+    "details": "2nd floor, office 53A",
+    "open": "Mon-Sat 09:00-21:00"
+  },
+  "menu": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "What clients say?",
+    "team": "Our team",
+    "place": "Our place",
+    "map": "Find us on the map",
+    "address": "aleja Jana Pawla II, 45A, 2nd floor, office 53A",
+    "open": "Opening hours: Mon-Sat 09:00-21:00",
+    "number": "Call us:"
+  },
+  "main": {
+    "button": "BOOK MY VISIT"
+  },
+  "services": {
+    "label": "POPULAR SERVICES",
+    "haircut_name": "Haircut",
+    "haircut_price": "120 zl",
+    "haircut_time": "1h",
+    "combo_name": "Haircut + Beard",
+    "combo_price": "170 zl",
+    "combo_time": "1h30m",
+    "perm_name": "Perm + Haircut",
+    "perm_price": "350 zl",
+    "perm_time": "3h+",
+    "button": "BOOK MY VISIT"
+  },
+  "portfolio": {
+    "label": "PORTFOLIO"
+  },
+  "about": {
+    "label": "WHAT CLIENTS SAY?"
+  },
+  "team": {
+    "label": "OUR TEAM"
+  },
+  "place": {
+    "label": "OUR PLACE"
+  },
+  "footer": {
+    "address": "aleja Jana Pawla II, 45A, 2nd floor, office 53A",
+    "open": "Opening hours: Mon-Sat 09:00-21:00",
+    "number": "Call us:",
+   "socials": "Follow us"
+  }
+}

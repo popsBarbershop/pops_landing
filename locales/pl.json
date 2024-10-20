@@ -1,0 +1,58 @@
+{
+  "languages": {
+    "label": "Język",
+    "en": "Angielski",
+    "pl": "Polski"
+  },
+  "header": {
+    "street": "aleja Jana Pawla II, 45A",
+    "details": "2 piętro, biuro 53A",
+    "open": "Pon-Sob 09:00-21:00"
+  },
+  "menu": {
+    "home": "Dom",
+    "services": "Usługi",
+    "portfolio": "Portfolio",
+    "about": "Co mówią klienci?",
+    "team": "Nasz zespół",
+    "place":"Nasze miejsce",
+    "map": "Znajdź nas na mapie",
+    "address": "aleja Jana Pawla II, 45A, 2 piętro, biuro 53A",
+    "open": "Godziny otwarcia: Pon-Sob 09:00-21:00",
+    "number": "Zadzwoń do nas:"
+  },
+  "main": {
+    "button": "ZAREZERWUJ WIZYTĘ"
+  },
+  "services": {
+    "label": "POPULARNE USŁUGI",
+    "haircut_name" : "Strzyżenie męskie",
+    "haircut_price": "120zl",
+    "haircut_time": "1g",
+    "combo_name": "Głowa + broda",
+    "combo_price": "170zl",
+    "combo_time": "1g30m",
+    "perm_name": "Trwala + strzyżenie",
+    "perm_price": "350zl",
+    "perm_time": "3g+",
+    "button": "ZAREZERWUJ WIZYTĘ"
+  },
+  "portfolio": {
+    "label": "PORTFOLIO"
+  },
+  "about": {
+    "label": "CO MÓWIĄ KLIENCI?"
+  },
+  "team": {
+    "label": "NASZ ZESPÓŁ"
+  },
+  "place": {
+    "label": "NASZE MIEJSCE"
+  },
+  "footer": {
+    "address": "aleja Jana Pawla II, 45A, 2 piętro, biuro 53A",
+    "open": "Godziny otwarcia: Pon-Sob 09:00-21:00",
+    "number": "Zadzwoń do nas:",
+    "socials": "Śledź nas"
+  }
+}

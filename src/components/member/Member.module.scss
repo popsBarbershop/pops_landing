@@ -1,0 +1,29 @@
+.member{
+  @apply flex flex-row text-white justify-center items-center
+}
+
+.content{
+  @apply flex flex-col justify-start items-start lg:ml-16
+}
+
+
+.image{
+  @apply lg:max-h-[480px] lg:max-w-[388px]
+}
+
+.description{
+  @apply text-2xl font-semibold
+}
+
+.languages{
+  @apply text-xl font-semibold
+}
+
+.button{
+  @apply  transition duration-500 transform text-center font-bold text-2xl text-black bg-green-600 min-h-[80px] min-w-[333px]
+}
+
+.button:hover{
+  @apply scale-105 bg-green-700 transition duration-500 transform
+}
+

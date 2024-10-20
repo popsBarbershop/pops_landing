@@ -1,0 +1,28 @@
+.card{
+  background: linear-gradient(180deg, #f0f0f0 0%, #e0e0e0 100%);
+  @apply box-border shadow-2xl flex flex-col items-center text-black transition-transform duration-500 transform min-w-[240px] min-h-[260px] lg:min-w-[480px] lg:min-h-[500px]
+}
+
+.card:hover{
+  @apply scale-105 transition-transform duration-500 transform
+}
+
+.title{
+  @apply text-center font-black lg:mt-8 lg:text-4xl z-20
+}
+
+.button{
+  @apply bg-white mt-3 text-center font-bold shadow transition duration-500 transform p-2  lg:p-0 lg:text-3xl lg:min-w-[333px] lg:min-h-[80px] lg:mt-5
+}
+
+.button:hover{
+  @apply bg-black text-white transition duration-500 transform
+}
+
+.item{
+  @apply min-w-full flex flex-row justify-between items-center text-base font-normal lg:text-2xl
+}
+
+.icon{
+  @apply  max-w-40 max-h-40 lg:max-w-60 lg:max-h-60
+}
